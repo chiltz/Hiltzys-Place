@@ -40,5 +40,3 @@ $Creds = Get-credential
 $BFUserID = $Creds.username
 $BFPassword = $Creds.password
 Get-BFActionsViaRest -BFUserid $BFUserID -BFPassword $BFPassword -BFServer $BFServer -uribase $urlbase -url $uri
-
-asdfasdfasfd
